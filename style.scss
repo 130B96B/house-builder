@@ -11,7 +11,7 @@ a,a:hover,a:visited{
 #header{
     width: 300px;
     height: 100%;
-    background-color: #fff;
+    background-color: white;
     position: fixed;
     top: 0;
     padding: 40px 40px;
@@ -165,7 +165,7 @@ a,a:hover,a:visited{
     }
 }
 #flow{
-    background-color: #fff;
+    background-color: white;
     padding: 100px 0 150px;
     & .wrapper{
         & .process{
@@ -200,7 +200,7 @@ a,a:hover,a:visited{
                         position: absolute;
                         width: 25%;
                         height: 80px;
-                        background: yellow;
+                        background: #ffdd00;
                         align-items: center;
                         top: 79px;
                         left: 37.5%;
