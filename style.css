@@ -342,30 +342,6 @@ footer {
   bottom: 20px;
 }
 
-#header {
-  width: 300px;
-  height: 100%;
-  background-color: #fff;
-  position: fixed;
-  top: 0;
-  padding: 40px 40px;
-  display: flex;
-  align-items: baseline;
-  flex-direction: column;
-}
-#header nav {
-  font-size: small;
-}
-#header nav ul li {
-  margin-top: 15px;
-}
-#header nav ul li:nth-of-type(1) {
-  margin-top: 30px;
-}
-#header nav .sns {
-  margin-top: 80px;
-}
-
 @media screen and (max-width: 960px) {
   #header {
     width: 100%;
@@ -560,5 +536,22 @@ footer {
     top: 155px;
     right: 5px;
     left: auto;
+  }
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    padding: 30px 7px;
+    font-size: small;
+  }
+  .menu li::after {
+    content: "";
+    border-right: solid 1px;
+    margin: 0 10px;
+  }
+  .menu li:nth-of-type(6)::after {
+    content: none;
+    border-right: none;
   }
 }/*# sourceMappingURL=style.css.map */
