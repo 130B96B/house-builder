@@ -538,20 +538,10 @@ footer {
     left: auto;
   }
   .menu {
-    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    color: white;
     padding: 30px 7px;
-    font-size: small;
   }
   .menu li::after {
-    content: "";
-    border-right: solid 1px;
     margin: 0 10px;
-  }
-  .menu li:nth-of-type(6)::after {
-    content: none;
-    border-right: none;
   }
 }/*# sourceMappingURL=style.css.map */
